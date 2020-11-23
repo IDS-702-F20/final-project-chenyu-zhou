@@ -1,5 +1,5 @@
 # Data Loading
-bank <- read.csv("/Users/Chenyu/Downloads/bank-additional-full.csv", header=TRUE, stringsAsFactors=FALSE)
+bank <- read.csv("/Users/Chenyu/Desktop/2020 Fall/IDS 702/Final Project/bank-additional-full.csv", header=TRUE, stringsAsFactors=FALSE)
 
 bank$job <- as.factor(bank$job)
 bank$marital <- as.factor(bank$marital)
